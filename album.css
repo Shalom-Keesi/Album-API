@@ -1,0 +1,23 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+}
+.single-album-container{
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    border:solid 1px rgb(161,156,156);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.single-album-container img{
+    width: 80%;
+
+}
